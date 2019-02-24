@@ -1,6 +1,6 @@
 set number
 set relativenumber
-
+set complete
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
