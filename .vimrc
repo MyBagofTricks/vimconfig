@@ -3,7 +3,7 @@ set relativenumber
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
-se mouse+=a
+set  mouse+=a
 
 autocmd FileType python nnoremap <buffer> <F9> :exec '!python2' shellescape(@%, 1)<cr>
 
@@ -17,6 +17,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+colorscheme elflord
 
 call plug#begin('~/.vim/plugins')
 Plug 'SirVer/ultisnips'
